@@ -23,7 +23,9 @@ const List = (props) => {
   },[]);
 
   useEffect(()=>{
-    setName(ByName)
+    if(ByName !== null){
+      setName(ByName)
+    }
   },[ByName])
 
   return (
