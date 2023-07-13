@@ -1,0 +1,57 @@
+.List-item-container {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gainsboro;
+}
+
+.nameAndDelete {
+  display: flex;
+  align-items: center;
+}
+
+.List-item-container img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.List-item-container p:nth-child(1) {
+  margin-left: 10px;
+  font-size: 22px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.List-item-container p:nth-child(2) {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-right: 10px;
+}
+
+.ptagOne {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.ptagTwo {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,36 @@
+.List-main-container {
+  width: 100vw;
+  height: 85vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.List-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 90%;
+  overflow: scroll;
+}
+
+.pagination-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: brown;
+  width: 100vw;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  cursor: pointer;
+}
